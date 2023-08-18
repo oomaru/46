@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(10, 0, 84);
+    color: rgb(244,244,244);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-custom{
+    background-color: transparent;
+    color: rgb(244,244,244);
+    border: 2px solid rgb(244,244,244);
+    border-radius: 20px;
+    padding: 30px 40px;
+    transition: 0.5s;
+}
+
+.btn-custom:hover{
+    background-color: rgb(244,244,244);
+    color: rgb(33,33,33);
+    transform: scale(1.1);
+}
+
+
+.card-custom{
+    height: 70px;
+    border: 2px solid rgb(244,244,244);
+    box-shadow: 2px 2px 5px rgb(244,244,244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon{
+    cursor: pointer;
+}
